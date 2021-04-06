@@ -21,8 +21,13 @@ h2 {
   color: white;
 }
 
+h3 {
+  color: white;
+  font-size: 1em;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: sans-serif;
   margin: 0;
   padding: 0 var(--spacing-3);
   max-width: 900px;
@@ -86,12 +91,6 @@ section {
   color:white;
 }
 
-.icon {
-  font-size: 2em;
-  color: var(--font-color);
-  margin: 0 var(--spacing-1);
-}
-
 a {
   color: var(--font-color);
   text-decoration: none;
@@ -110,7 +109,7 @@ a {
 }
 
 #skills-container > * {
-  font-size: 2em;
+  font-size: 1em;
   width: 2em;
   margin-top: var(--spacing-1);
 }
