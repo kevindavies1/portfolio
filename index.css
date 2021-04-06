@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+
+:root {
+  --spacing-1: 8px;
+  --spacing-2: 12px;
+  --spacing-3: 16px;
+  --spacing-4: 24px;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: var(--spacing-2);
+  color: white;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0 var(--spacing-3);
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-3) 0;
+}
+
+.navigation-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+}
+
+.navigation-item {
+  margin: var(--spacing-1);
+}
+
+.portrait {
+  width: 300px;
+}
+
+.about-me-container {
+  display: flex;
+}
+
+.about-me-text-container {
+  margin-right: var(--spacing-3);
+}
+
+.project-image {
+  width: 50%;
+}
+
+.project-title h3 {
+  display: inline;
+}
+
+details {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  color: grey;
+}
+
+section {
+  padding: var(--spacing-3) 0;
+  color:white;
+}
+
+.icon {
+  font-size: 2em;
+  color: var(--font-color);
+  margin: 0 var(--spacing-1);
+}
+
+a {
+  color: var(--font-color);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#logo {
+  margin: 0;
+}
+
+#skills-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#skills-container > * {
+  font-size: 2em;
+  width: 2em;
+  margin-top: var(--spacing-1);
+}
+
+@media only screen and (max-width: 600px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+}
